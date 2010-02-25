@@ -20,6 +20,6 @@ sudo apt-get install exuberant-ctags ncurses-term
 
 The approach I'm using for maintaining my dotfiles is based on Ryan Bates work. See http://github.com/ryanb/dotfiles for more info.
 
-The vim directory is based on my "vimfiles":http://github.com/matflores/vimfiles project, which is a fork of "Fabio Akita's vimfiles":http://github.com/akitaonrails/vimfiles, which was forked in turn from "Scrooloose's work":http://github.com/scrooloose/vimfiles.
+The vim directory is based on my vimfiles[http://github.com/matflores/vimfiles] project, which is a fork of "Fabio Akita's vimfiles"[http://github.com/akitaonrails/vimfiles], which was forked in turn from "Scrooloose's work"[http://github.com/scrooloose/vimfiles].
 
 Thanks to Ryan Bates, John Nunemaker, Gina Trapani, Fabio Akita and Martin Grenfell for many tips I've taken from them to create my own set of dotfiles.
