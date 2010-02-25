@@ -1,4 +1,4 @@
-= Matías Flores Dotfiles
+= Matías Flores Dot Files
 
 My config files (bash, vim, git, etc).
 
