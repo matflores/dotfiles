@@ -1,0 +1,33 @@
+= Matías Flores Dot Files
+
+My config files (bash, vim, git, etc).
+
+
+== Installation
+
+  git clone git://github.com/matflores/dotfiles ~/.dotfiles
+  cd ~/.dotfiles
+  rake install
+
+== Features
+
+If you're using Rails, you'll find some handy aliases (below). You can 
+also use show_log and hide_log in script/console to show the log inline.
+  
+  ss       # script/server
+  sc       # script/console
+  sg       # script/generate
+  at       # autotest
+  tlog     # tail -f log/development.log
+  rst      # touch tmp/restart.txt
+  migrate  # rake db:migrate db:test:clone
+
+If there are some shell configuration settings which you want secure or 
+specific to one system, place it into a ~/.localrc file. This will be 
+loaded automatically if it exists.
+
+== Acknowledgements
+
+The approach I'm using is based on Ryan Bates' work. See http://github.com/ryanb/dotfiles.
+
+Thanks to Ryan Bates, John Nunemaker, Gina Trapani.
