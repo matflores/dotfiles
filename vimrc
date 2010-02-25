@@ -53,7 +53,7 @@ set showcmd
 set cmdheight=2
 
 " Set Swap directory
-set directory=./.backup,$HOME/.backup
+set directory=./.swp,$HOME/.swp
 
 map <C-q> :mksession! ~/.vim/.session <cr>
 map <C-//> map ,# :s/^/#/<CR>
