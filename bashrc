@@ -89,7 +89,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export PATH=$PATH:~/.todo:/var/lib/gems/1.8/bin:~/.gem/ruby/1.8/bin
+export PATH=$PATH:/var/lib/gems/1.8/bin:~/.gem/ruby/1.8/bin
 export EDITOR=vim
 
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi

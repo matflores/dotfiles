@@ -14,7 +14,6 @@ alias ....="cd .. & cd .. & cd .."
 alias e="gvim"
 alias h="history"
 alias ack="ack-grep"
-alias t="todo.sh"
 
 ########
 # RUBY #
