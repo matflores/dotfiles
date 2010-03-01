@@ -1,8 +1,5 @@
 # ~/.bashrc executed by bash for non-login shells.
 
-# If not running interactively, don't do anything
-[ -z "$PS1" ] && return
-
 # don't put duplicate lines in the history. See bash(1) for more options
 # don't overwrite GNU Midnight Commander's setting of `ignorespace'.
 HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
@@ -92,7 +89,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export PATH=$PATH:~/.todo:/var/lib/gems/1.8/bin
+export PATH=$PATH:~/.todo:/var/lib/gems/1.8/bin:~/.gem/ruby/1.8/bin
 export EDITOR=vim
 
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
