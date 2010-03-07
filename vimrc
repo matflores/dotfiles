@@ -64,6 +64,9 @@ imap <c-s> <esc><c-s>
 imap jj <Esc>
 imap uu _
 
+" Prefer dark backgrounds (there are colorschemes that change based on this setting)
+set background=dark
+
 set guioptions-=T
 if has("gui_running")
   "tell the term has 256 colors
