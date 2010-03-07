@@ -71,18 +71,15 @@ set guioptions-=T
 if has("gui_running")
   "tell the term has 256 colors
   set t_Co=256
-  colorscheme baycomb 
 else
   let g:CSApprox_loaded = 0
-  colorscheme baycomb
 endif
 
 if $COLORTERM == 'gnome-terminal'
   set term=gnome-256color
-  colorscheme baycomb
-else
-  colorscheme baycomb
 endif
+
+colorscheme baycomb
 
 syntax on                 " Enable syntax highlighting
  
