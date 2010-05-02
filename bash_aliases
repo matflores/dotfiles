@@ -11,7 +11,7 @@ alias ..="cd .."
 alias ...="cd .. && cd .."
 alias ....="cd .. & cd .. & cd .."
 
-alias e="gvim"
+alias v="gvim"
 alias h="history"
 alias ack="ack-grep"
 
