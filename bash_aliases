@@ -1,19 +1,18 @@
-alias l="ls -CF"
-alias ll="ls -l"
-alias la="ls -A"
-
-alias ss="mongrel_rails start"
-alias sc="script/console"
-alias sg="script/generate"
-alias at="autotest"
-
 alias ..="cd .."
 alias ...="cd .. && cd .."
 alias ....="cd .. & cd .. & cd .."
 
-alias v="gvim"
-alias h="history"
 alias ack="ack-grep"
+alias at="autotest"
+alias g="gnome-open"
+alias h="history"
+alias l="ls -CF"
+alias ll="ls -l"
+alias la="ls -A"
+alias ss="mongrel_rails start"
+alias sc="script/console"
+alias sg="script/generate"
+alias v="gvim"
 
 ########
 # RUBY #
