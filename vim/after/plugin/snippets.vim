@@ -71,6 +71,7 @@ endif
 call NERDSnippetsFromDirectoryForFiletype('~/.vim/snippets/html', 'eruby')
 call NERDSnippetsFromDirectoryForFiletype('~/.vim/snippets/javascript', 'javascript')
 call NERDSnippetsFromDirectoryForFiletype('~/.vim/snippets/javascript-jquery', 'javascript')
+call NERDSnippetsFromDirectoryForFiletype('~/.vim/snippets/protest', 'ruby')
 
 "xhtml {{{1
 call NERDSnippetsFromDirectoryForFiletype('~/.vim/snippets/html', 'xhtml')
