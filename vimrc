@@ -269,5 +269,12 @@ function! OpenRailsDoc(keyword)
 endfunction
 noremap RR :call OpenRailsDoc(expand('<cword>'))<CR>
 
+" Open Rubular in a new Firefox tab
+function! OpenRubular()
+  let url = 'http://rubular.com'
+  exec '!'.g:browser.' '.url.' &'
+endfunction
+noremap RU :call OpenRubular()<CR>
+
 " Open NERDTree at startup
 autocmd VimEnter * NERDTree
