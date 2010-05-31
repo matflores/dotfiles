@@ -248,11 +248,6 @@ function! <SID>AvailableTemplates(lead, cmdline, cursorpos)
     return map(files, 'strpart(v:val,strlen(templateDir))')
 endfunction
 
-" CTRL-R reloads the ~/.vimrc file
-nnoremap <C-R> :source ~/.vimrc
-inoremap <C-R> <C-O>:source ~/.vimrc
-vnoremap <C-R> <C-C>:source ~/.vimrc
-
 " CTRL-T and CTRL-D indent and unindent blocks
 inoremap <C-D> <C-O><LT><LT>
 nnoremap <C-D> <LT><LT>
