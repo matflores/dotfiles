@@ -254,18 +254,6 @@ nnoremap <C-D> <LT><LT>
 vnoremap <C-T> >
 vnoremap <C-D> <LT>
 
-" Run Rspec for the current spec file
-function! RunRspec()
-ruby << EOF
-  buffer = VIM::Buffer.current
-  spec_file=VIM::Buffer.current.name
-  command = "ruby ~/.vim/bin/run_rspec.rb #{spec_file}"
-  print "Running Rspec for #{spec_file}. Results will be displayed in Firefox."
-  system(command)
-EOF
-endfunction
-map <F7> :call RunRspec()<cr>
-
 let g:browser = 'firefox -new-tab '     
 " Open the Ruby ApiDock page for the word under cursor, in a new Firefox tab
 function! OpenRubyDoc(keyword)
