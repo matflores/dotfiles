@@ -254,9 +254,6 @@ nnoremap <C-D> <LT><LT>
 vnoremap <C-T> >
 vnoremap <C-D> <LT>
 
-" CTRL-Z undoes even in visual/selection mode
-vnoremap <C-Z> <C-C>
-
 " Run Rspec for the current spec file
 function! RunRspec()
 ruby << EOF
