@@ -269,4 +269,5 @@ function! OpenRailsDoc(keyword)
 endfunction
 noremap RR :call OpenRailsDoc(expand('<cword>'))<CR>
 
+" Open NERDTree at startup
 autocmd VimEnter * NERDTree
