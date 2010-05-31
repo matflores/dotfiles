@@ -79,7 +79,7 @@ if $COLORTERM == 'gnome-terminal'
   set term=gnome-256color
 endif
 
-colorscheme baycomb
+colorscheme rdark
 
 syntax on                 " Enable syntax highlighting
  
