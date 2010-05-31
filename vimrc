@@ -47,6 +47,7 @@ set path=$PWD/public/**,$PWD/**
 filetype plugin indent on " Enable filetype-specific indenting and plugins
 set sessionoptions=blank,buffers,curdir,folds,help,resize,tabpages,winsize
 set guioptions-=m
+set guioptions-=T
 set statusline=%<%f\ %h%m%r%=%-20.(line=%l,col=%c%V,totlin=%L%)\%h%m%r%=%-40(,%n%Y%)\%P
 set laststatus=2
 set showcmd
@@ -67,7 +68,6 @@ imap uu _
 " Prefer dark backgrounds (there are colorschemes that change based on this setting)
 set background=dark
 
-set guioptions-=T
 if has("gui_running")
   "tell the term has 256 colors
   set t_Co=256
@@ -96,19 +96,9 @@ augroup END
 
 nmap <silent> <Leader>p :NERDTreeToggle<CR>
 
-"enable <c-j> and <c-k> to move one screen forward/backwards
-nnoremap <c-j> <c-f>
-nnoremap <c-k> <c-b>
-
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
 inoremap <C-L> <C-O>:nohls<CR>
-
-"map to bufexplorer
-nnoremap <C-B> :BufExplorer<cr>
-
-"map to fuzzy finder text mate stylez
-nnoremap <c-f> :FuzzyFinderTextMate<CR>
 
 "map Q to something useful
 noremap Q gq
