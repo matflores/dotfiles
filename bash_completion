@@ -1,0 +1,2 @@
+# auto-completion options
+complete -W "up status ssh init destroy halt suspend resume provision reload package" vagrant
