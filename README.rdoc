@@ -12,10 +12,6 @@ My config files (bash, git, etc).
 
 A lot of features yet to be documented :-)
 
-== Dependencies
-
-sudo apt-get install exuberant-ctags ncurses-term
-
 == Acknowledgements
 
 The approach I'm using for maintaining my dotfiles is based on Ryan Bates work. See http://github.com/ryanb/dotfiles for more info.
