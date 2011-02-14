@@ -2,8 +2,6 @@ alias ..="cd .."
 alias ...="cd .. && cd .."
 alias ....="cd .. & cd .. & cd .."
 
-alias ack="ack-grep"
-alias at="autotest"
 alias g="gnome-open"
 alias h="history"
 alias l="ls -CF"
