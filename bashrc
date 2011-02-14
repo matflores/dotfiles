@@ -39,12 +39,7 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-if [ "$color_prompt" = yes ]; then
-    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\]\$ '
-else
-    PS1='\u@\h:\w$(__git_ps1)\$ '
-fi
-unset color_prompt force_color_prompt
+PS1='[\u@\h \W]\$ '
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
@@ -78,7 +73,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export CDPATH=$CDPATH:~/Proyectos:~/Sitios
+export CDPATH=$CDPATH:~/clients
 export EDITOR=vim
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
