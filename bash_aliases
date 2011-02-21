@@ -4,6 +4,7 @@ alias ....="cd .. & cd .. & cd .."
 
 alias g="gnome-open"
 alias h="history"
+alias ls="ls --color"
 alias l="ls -CF"
 alias ll="ls -l"
 alias la="ls -A"
