@@ -10,6 +10,7 @@ alias la="ls -A"
 alias ss="script/server"
 alias sc="script/console"
 alias sg="script/generate"
+alias t="todo.sh"
 alias v="gvim"
 
 ########
