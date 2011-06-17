@@ -90,4 +90,7 @@ export PATH=$PATH:~/.todo
 export CDPATH=$CDPATH:~/clients
 export EDITOR=vim
 
+# Disable annoying beep
+/usr/bin/xset -b
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
