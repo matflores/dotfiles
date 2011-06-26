@@ -87,7 +87,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:~/.todo
-export CDPATH=$CDPATH:~/clients
+export CDPATH=$CDPATH:~/Code
 export EDITOR=vim
 
 # Disable annoying beep
