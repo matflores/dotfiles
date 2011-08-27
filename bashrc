@@ -86,8 +86,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export PATH=$PATH:~/.todo
+export PATH=$PATH:~/.todo:~/local/bin
 export CDPATH=$CDPATH:~/Code
+export NODE_PATH=~/local/lib/node_modules
 export EDITOR=vim
 
 # Disable annoying beep
