@@ -87,7 +87,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:~/.todo:~/local/bin
-export CDPATH=$CDPATH:~/Code
+export CDPATH=$CDPATH:~/src
 export NODE_PATH=~/local/lib/node_modules
 export EDITOR=vim
 
