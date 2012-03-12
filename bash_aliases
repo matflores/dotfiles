@@ -3,7 +3,6 @@ alias ...="cd .. && cd .."
 alias ....="cd .. & cd .. & cd .."
 
 alias h="history"
-alias ls="ls --color"
 alias l="ls -CF"
 alias ll="ls -l"
 alias la="ls -A"
