@@ -73,8 +73,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# Alias definitions.
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
+#Alias definitions.
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
@@ -87,11 +89,8 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:~/.todo:~/local/bin
-export CDPATH=$CDPATH:~/src
+export CDPATH=$CDPATH:~/Projects:~/src
 export NODE_PATH=~/local/lib/node_modules
 export EDITOR=vim
-
-# Disable annoying beep
-/usr/bin/xset -b
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
