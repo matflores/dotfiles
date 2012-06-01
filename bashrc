@@ -89,5 +89,4 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:~/.todo:~/local/bin
-export CDPATH=$CDPATH:~/Projects:~/src
 export EDITOR=emacs
