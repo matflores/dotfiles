@@ -92,5 +92,3 @@ export PATH=$PATH:~/.todo:~/local/bin
 export CDPATH=$CDPATH:~/Projects:~/src
 export NODE_PATH=~/local/lib/node_modules
 export EDITOR=emacs
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
