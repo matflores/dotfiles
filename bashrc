@@ -90,5 +90,4 @@ fi
 
 export PATH=$PATH:~/.todo:~/local/bin
 export CDPATH=$CDPATH:~/Projects:~/src
-export NODE_PATH=~/local/lib/node_modules
 export EDITOR=emacs
