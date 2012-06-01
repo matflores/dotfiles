@@ -74,7 +74,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 export CLICOLOR=1
-export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+export LSCOLORS=GxBxhxDxfxhxhxhxhxcxcx
 
 #Alias definitions.
 if [ -f ~/.bash_aliases ]; then
