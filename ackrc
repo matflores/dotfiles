@@ -1,0 +1,10 @@
+# always ignore gem files when searching inside a project dir
+--ignore-dir=.gs
+
+# define custom file types
+--type-set=mote=.mote
+--type-set=haml=.haml
+--type-set=sass=.sass,.scss
+--type-set=org=.org
+--type-set=markdown=.markdown
+--type-add=ruby=.ru
