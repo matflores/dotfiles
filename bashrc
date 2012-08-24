@@ -56,6 +56,11 @@ esac
 export CLICOLOR=1
 export LSCOLORS=GxBxhxDxfxhxhxhxhxcxcx
 
+# enable bash completion
+if [ -f /usr/local/etc/bash_completion ]; then
+  . /usr/local/etc/bash_completion
+fi
+
 #Alias definitions.
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
