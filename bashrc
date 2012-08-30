@@ -42,7 +42,12 @@ function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[\1$(parse_git_dirty)]/"
 }
 
-export PS1='\u@\h \[\033[1;33m\]\w\[\033[0m\]$(parse_git_branch)$ '
+_gs_ps1() {
+  [[ -z $GS_NAME ]] || echo "[$GS_NAME] "
+}
+
+export PS1="\n\[\033[01;32m\]\w \[\033[1;33m\]\$(_gs_ps1)\[\033[01;31m\]\$(parse_git_branch \"(%s) \")\[\033[01;36m\]>>\[\033[00m\] "
+export PS1="\[\033[G\]$PS1"
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
