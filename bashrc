@@ -78,6 +78,10 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+# define internationalization variables
+export LC_CTYPE=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 export PATH=/usr/local/bin:/usr/local/Cellar/ruby/1.9.3-p194/bin:$PATH
 export CDPATH=~/src:~/src/aw:~/src/cb:~/src/rb:~/src/js:~/src/etc:$CDPATH
 export EDITOR=emacs
