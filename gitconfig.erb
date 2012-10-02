@@ -24,6 +24,7 @@
   di = diff
   dl = diff --name-status
   ds = diff --stat
+  last = log -1 HEAD
   ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s - %C(yellow)%aN%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
   lp = log -p
   ls = log --stat
@@ -31,4 +32,6 @@
   re = remote
   rs = remote show
   st = status
+  unstage = reset HEAD --
   who = shortlog -s
+  yesterday = log --graph --pretty=format:'%Cblue%h%Creset -%C(yellow)%d%Creset %s - %C(yellow)%aN%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --since=yesterday --until=midnight
