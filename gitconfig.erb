@@ -35,3 +35,5 @@
   unstage = reset HEAD --
   who = shortlog -s
   yesterday = log --graph --pretty=format:'%Cblue%h%Creset -%C(yellow)%d%Creset %s - %C(yellow)%aN%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --since=yesterday --until=midnight
+[push]
+	default = current
