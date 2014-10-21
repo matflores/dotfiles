@@ -78,6 +78,11 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+# enable git completion
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 # define internationalization variables
 export LC_CTYPE=en_US.UTF-8
 export LANG=en_US.UTF-8
