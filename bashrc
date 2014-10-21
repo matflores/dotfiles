@@ -35,7 +35,7 @@ fi
 #   username@Machine ~/dev/dir[master*]$  # dirty working directory
 
 function parse_git_dirty {
-  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "*"
+  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working directory clean" ]] && echo "*"
 }
 
 function parse_git_branch {
