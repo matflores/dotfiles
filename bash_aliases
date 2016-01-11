@@ -17,3 +17,8 @@ alias v="gvim"
 ########
 alias irb='irb --readline -r irb/completion -rubygems' # use readline, completion and require rubygems by default for irb
 alias gs="`brew list ruby | grep bin/gs`"
+
+##########
+# Docker #
+##########
+alias dm=docker-machine
