@@ -21,3 +21,8 @@ alias irb='irb --readline -r irb/completion -rubygems' # use readline, completio
 # Docker #
 ##########
 alias dm=docker-machine
+
+#########
+# Emacs #
+#########
+alias emacs="/usr/local/Cellar/emacs/25.1/Emacs.app/Contents/MacOS/Emacs"
